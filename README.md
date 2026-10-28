@@ -1,6 +1,6 @@
-# Hi, I'm Deavyansh
+# Hi, I'm a
 
-I'm a software engineer focused on **LLM evaluation and benchmarking, infrastructure as code, and workflow automation**, with interests in Go and Python tooling.
+Software engineer focused on **LLM evaluation and benchmarking, infrastructure as code, and workflow automation**, with interests in Go and Python tooling.
 
 My work spans cloud provisioning, container deployment, service observability, and rubric-based evaluation of infrastructure code. I'm improving the reproducibility and documentation of my public projects.
 
