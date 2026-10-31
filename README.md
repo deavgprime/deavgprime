@@ -1,17 +1,19 @@
-# deavgprime
+# Deavyansh Gautam
 
-Software engineer working on evaluation tools and reproducible benchmarks, with a focus on infrastructure as code. I work with Python and Go.
+I build evaluation tools, reproducible benchmarks, and infrastructure workflows in Python and Go. My current focus is evaluation data integrity, scoring behavior, and failure handling.
 
 ## Projects
 
 | Project | Scope |
 | --- | --- |
-| [IaC Eval Bench](https://github.com/deavgprime/iac-eval-bench) | Six synthetic Kubernetes tasks, offline schema/rubric scoring and a resumable evaluation workflow. Fixture baselines and a [two-model Qwen2.5-Coder comparison](https://github.com/deavgprime/iac-eval-bench/tree/main/results/2026-10-18-qwen-comparison) published, retaining all 12 attempts, failure analysis, latency, token usage and resource measurements. |
+| [IaC Eval Bench](https://github.com/deavgprime/iac-eval-bench) | A prototype for evaluating model-generated Kubernetes configurations: six synthetic tasks, offline schema and rubric checks, and a resumable workflow. |
 | [Go microservices lab](https://github.com/deavgprime/go-microservices-lab) | Go services, messaging experiments, broker validation tests and a reproducible JSON microbenchmark. |
+
+The [IaC Eval Bench pilot](https://github.com/deavgprime/iac-eval-bench/tree/main/results/2026-10-18-qwen-comparison) retains all 12 attempts from two small models, with failure analysis, latency, token usage, and resource measurements. One attempt per model per task does not establish a model ranking. Schema and rubric checks do not establish runtime correctness.
 
 ## Open-source contributions
 
-My main contribution focus is Inspect Scout and upstream Inspect AI: preserving evaluation data, checking scoring behavior, and testing failure handling. I also follow up on my Harbor and NeMo Gym contributions. I start with a reproducible case and add regression coverage before proposing a fix.
+I focus on Inspect Scout and upstream Inspect AI, and maintain my existing Harbor and NeMo Gym contributions. My approach is to reproduce the failure, isolate the cause, and test the proposed change against regression cases and controls.
 
 | Project | Submitted work |
 | --- | --- |
@@ -20,6 +22,6 @@ My main contribution focus is Inspect Scout and upstream Inspect AI: preserving 
 | [Harbor](https://github.com/harbor-framework/harbor) | [Configurable local tokenization for context estimates](https://github.com/harbor-framework/harbor/pull/3857). |
 | [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym) | [Calendar verifier checks](https://github.com/NVIDIA-NeMo/Gym/pull/5384) and [portable Harbor dataset paths](https://github.com/NVIDIA-NeMo/Gym/pull/5404). |
 
-The linked pull requests show their current review and merge status. Benchmark results distinguish fixture checks from measured model runs and retain failed attempts.
+These are submitted fixes and bug reports. The linked issues and pull requests show their current acceptance, review, and merge status.
 
 [LinkedIn](https://www.linkedin.com/in/deavyansh)
