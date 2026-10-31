@@ -11,12 +11,14 @@ Software engineer working on evaluation tools and reproducible benchmarks, with 
 
 ## Open-source contributions
 
-My current contribution focus is Inspect Scout and upstream Inspect AI: preserving evaluation data, checking scoring behavior, and testing failure handling. I start with a reproducible case and add regression coverage before proposing a fix.
+My main contribution focus is Inspect Scout and upstream Inspect AI: preserving evaluation data, checking scoring behavior, and testing failure handling. I also follow up on my Harbor and NeMo Gym contributions. I start with a reproducible case and add regression coverage before proposing a fix.
 
 | Project | Submitted work |
 | --- | --- |
 | [Inspect Scout](https://github.com/meridianlabs-ai/inspect_scout) | [Preserving CSV validation identifiers](https://github.com/meridianlabs-ai/inspect_scout/pull/772) and [correcting refusal retry counts](https://github.com/meridianlabs-ai/inspect_scout/pull/773). |
 | [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) | Reproductions for [numeric scoring precision](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6216), [Unicode matching](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6218), and [dataset image metadata](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6221). Fixes await maintainer acceptance. |
+| [Harbor](https://github.com/harbor-framework/harbor) | [Configurable local tokenization for context estimates](https://github.com/harbor-framework/harbor/pull/3857). |
+| [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym) | [Calendar verifier checks](https://github.com/NVIDIA-NeMo/Gym/pull/5384) and [portable Harbor dataset paths](https://github.com/NVIDIA-NeMo/Gym/pull/5404). |
 
 The linked pull requests show their current review and merge status. Benchmark results distinguish fixture checks from measured model runs and retain failed attempts.
 
