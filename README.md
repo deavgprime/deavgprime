@@ -11,6 +11,11 @@ I build evaluation tools, reproducible benchmarks, and infrastructure workflows 
 
 The [IaC Eval Bench pilot](https://github.com/deavgprime/iac-eval-bench/tree/main/results/2026-10-18-qwen-comparison) retains all 12 attempts from two small models, with failure analysis, latency, token usage, and resource measurements. One attempt per model per task does not establish a model ranking. Schema and rubric checks do not establish runtime correctness.
 
+## Writing
+
+- [What exactly are AI evals?](https://dev.to/deavgprime/what-exactly-are-ai-evals-775): tasks, graders, metrics, and what an evaluation score can leave out.
+- [Before scoring a model, test the evaluator](https://dev.to/deavgprime/before-scoring-a-model-test-the-evaluator-3noi): five scoring errors in IaC Eval Bench and the regression cases that caught them.
+
 ## Open-source contributions
 
 I focus on Inspect Scout and upstream Inspect AI, and maintain my existing Harbor and NeMo Gym contributions. My approach is to reproduce the failure, isolate the cause, and test the proposed change against regression cases and controls.
