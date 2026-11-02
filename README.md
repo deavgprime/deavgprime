@@ -16,6 +16,7 @@ The [IaC Eval Bench pilot](https://github.com/deavgprime/iac-eval-bench/tree/mai
 - [What exactly are AI evals?](https://dev.to/deavgprime/what-exactly-are-ai-evals-775): tasks, graders, metrics, and what an evaluation score can leave out.
 - [Before scoring a model, test the evaluator](https://dev.to/deavgprime/before-scoring-a-model-test-the-evaluator-3noi): five scoring errors in IaC Eval Bench and the regression cases that caught them.
 - [Resuming an eval without changing the experiment](https://dev.to/deavgprime/resuming-an-eval-without-changing-the-experiment-c8d): preserving saved attempts and checking that a resumed run still belongs to the same experiment.
+- [Passing once is not the same as being reliable](https://dev.to/deavgprime/passing-once-is-not-the-same-as-being-reliable-abo): understanding pass@1, pass@k, and pass^k through repeated attempts, with a runnable Python example.
 
 ## Open-source contributions
 
