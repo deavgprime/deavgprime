@@ -17,6 +17,8 @@ The [IaC Eval Bench pilot](https://github.com/deavgprime/iac-eval-bench/tree/mai
 - [Before scoring a model, test the evaluator](https://dev.to/deavgprime/before-scoring-a-model-test-the-evaluator-3noi): five scoring errors in IaC Eval Bench and the regression cases that caught them.
 - [Resuming an eval without changing the experiment](https://dev.to/deavgprime/resuming-an-eval-without-changing-the-experiment-c8d): preserving saved attempts and checking that a resumed run still belongs to the same experiment.
 - [Passing once is not the same as being reliable](https://dev.to/deavgprime/passing-once-is-not-the-same-as-being-reliable-abo): understanding pass@1, pass@k, and pass^k through repeated attempts, with a runnable Python example.
+- [When a higher eval score means worse work](https://dev.to/deavgprime/when-a-higher-eval-score-means-worse-work-3npf): reward hacking, independent checks, and a calendar-verifier fix.
+- [Did the model fail, or did the environment?](https://dev.to/deavgprime/did-the-model-fail-or-did-the-environment-403f): separating wrong answers from memory limits, timeouts, and setup failures.
 
 ## Open-source contributions
 
